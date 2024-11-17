@@ -1,0 +1,56 @@
+
+.background {
+    background-color: black; 
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10%;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-left: 400px;
+}
+
+.card h1 {
+    font-size: 2em;
+    margin: 10px 0;
+    color: black;
+}
+
+.card p {
+    font-size: 1em;
+    
+}
+
+@media (max-width: 768px) {
+    .card img {
+      max-width: 80%;
+      height: auto;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .card img {
+      max-width: 90%;
+
+      margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card img {
+      width: 100%;
+    }
+  }

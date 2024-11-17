@@ -1,0 +1,6 @@
+.nav-item:hover{
+    text-decoration: underline;
+    text-decoration-color:black ;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+}
